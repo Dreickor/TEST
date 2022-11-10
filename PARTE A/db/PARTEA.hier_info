@@ -1,0 +1,6 @@
+|Block1
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+SW2 => inst.IN0
+SW1 => inst.IN1
+
+

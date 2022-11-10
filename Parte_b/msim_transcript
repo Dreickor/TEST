@@ -1,0 +1,74 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do PARTEB_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {PARTEB.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity sum_comp
+# -- Compiling architecture structure of sum_comp
+# 
+# vcom -93 -work work {C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sum_comp_tb
+# -- Compiling architecture comport of sum_comp_tb
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/santi/Desktop/Laboratorio/Parte_b/sum_comp_tb.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  sum_comp_tb
+# vsim -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -t 1ps sum_comp_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sum_comp_tb(comport)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.sum_comp(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading cycloneiii.cycloneiii_clkctrl(vital_clkctrl)
+# Loading cycloneiii.cycloneiii_ena_reg(behave)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Break key hit 
+# Break in Process line__7194 at C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/vhdl/src/cycloneiii/cycloneiii_atoms.vhd line 7194
