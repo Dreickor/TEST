@@ -1,4 +1,22 @@
-|Partec
+|Block1
+Q <= PARTEB:inst16.Q
+D => PARTEB:inst.D
+cl => PARTEB:inst.cl
+D16 => PARTEB:inst13.D
+cl17 => PARTEB:inst13.cl
+D18 => PARTEB:inst14.D
+cl19 => PARTEB:inst14.cl
+cl20 => PARTEB:inst16.cl
+Q22 <= PARTEB:inst15.Q
+
+
+|Block1|PARTEB:inst16
+D => Q~reg0.DATAIN
+cl => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|Partec:inst2
 a => res.IN0
 a => cout.IN0
 b => res.IN1
@@ -7,5 +25,29 @@ cin => res.IN1
 cin => cout.IN1
 res <= res.DB_MAX_OUTPUT_PORT_TYPE
 cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|PARTEB:inst
+D => Q~reg0.DATAIN
+cl => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|PARTEB:inst13
+D => Q~reg0.DATAIN
+cl => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|PARTEB:inst14
+D => Q~reg0.DATAIN
+cl => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|PARTEB:inst15
+D => Q~reg0.DATAIN
+cl => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
